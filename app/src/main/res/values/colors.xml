@@ -1,6 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="red">#ffe50d22</color>
+    <color name="green">#ff00b800</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="gray">#ffdcdcdc</color>
+
+    <color name="c_111">#111</color>
+    <color name="c_333">#333</color>
+    <color name="c_666">#666</color>
+    <color name="c_ccc">#ccc</color>
+    <color name="c_bbb">#bbb</color>
+    <color name="c_999">#999</color>
+    <color name="c_fff">#fff</color>
+    <color name="c_ffffff">#ffffffff</color>
+    <color name="c_ff8000">#ff8000</color>
+    <color name="c_0066cc">#06c</color>
+    <color name="c_006641">#006641</color>
+    <color name="c_af292e">#af292e</color>
+    <color name="c_cdcdcd">#ffcdcdcd</color>
+    <color name="c_d2d2d2">#d2d2d2</color>
+    <color name="c_fafafa">#fafafa</color>
+    <color name="c_333333">#333333</color>
+    <color name="c_0073ff">#0073ff</color>
+    <color name="c_ec3706">#ec3706</color>
+
+    <color name="c_003f97">#ff003f97</color>
+    <color name="c_006441">#006441</color>
+
+
+    <color name="c_111111">#111111</color>
+    <color name="c_008c23">#008c23</color>
+    <color name="_f8f4c6">#f8f4c6</color>
+    <color name="_999999">#ff999999</color>
+    <color name="c_bbbbbb">#bbbbbb</color>
+    <color name="c_dedddd">#DEDDDD</color>
+    <color name="c_eeeeee">#EEEEEE</color>
+    <color name="c_e2233e">#e2233e</color>
+    <color name="c_0099ff">#0099ff</color>
+    <color name="c_666666">#666666</color>
+    <color name="c_ff3d73a5">#ff3d73a5</color>
+
+    <color name="c_999999">#999999</color>
+    <color name="c_cccccc">#ffcccccc</color>
+    <color name="c_c7c7c7">#c7c7c7</color>
+    <color name="c_ffffc8">#ffffc8</color>
+    <color name="c_ff494949">#ff494949</color>
+    <color name="c_d8d8d8">#d8d8d8</color>
+    <color name="c_d9ecfb">#d9ecfb</color>
+    <color name="_af292e">#af292e</color>
+    <color name="c_01C5FF">#01C5FF</color>
+    <color name="c_333746">#333746</color>
+    <color name="c_1e212a">#1e212a</color>
+    <color name="c_1a232e">#1A232E</color>
+    <color name="c_ff5325">#ff5325</color>
+    <color name="c_f4f4f6">#f4f4f6</color>
+    <color name="c_d6d6d8">#d6d6d8</color>
+
+    <color name="c_ff3e41">#FF3E41</color>
+    <color name="c_ffa800">#FFA800</color>
+
+    <color name="white_80">#ccFFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <!-- 背景色 -->
+    <color name="transparent">#00000000</color>
+    <color name="trade_background">#ffececec</color>
+    <color name="transparent_black_half">#5f000000</color>
+    <color name="trade_list_selected_bg_color">#ffd8d8d8</color>
+    <color name="trade_table_color">#ff000000</color>
+    <color name="stock_indicator_bg_black">#101419</color>
+
+
+    <!-- 标题栏背景色 -->
+    <color name="title_bg">#f34610</color>
+
+    <color name="tip_bg_color">#FFFCDC</color>
+    <color name="tip_border_color">#F9DB8E</color>
+
+    <!-- 分隔线颜色 -->
+    <color name="divider_line">#ccc</color>
+
+    <!-- 首页banner背景颜色 -->
+    <color name="banner_bg">#f5f5f5</color>
+
+    <!-- webview页面背景色-->
+    <color name="webview_bg">#f8f8f8</color>
+
+    <color name="c_dfdddd">#dfdddd</color>
+
+    <color name="app_bg">#fff3f3f4</color>
+
+    <color name="pa_disable_color">#ffd8d8d8</color>
+
+    <color name="btn_bg_pressed_red">#7b1d1f</color>
+    <color name="btn_bg_disable">#c7c7c7</color>
+
+    <color name="scroll_menu_background">@color/app_bg</color>
+    <color name="scroll_menu_bottom_bar">#ffe32832</color>
+    <color name="scroll_menu_text">#ff383838</color>
+
+    <!-- 白色主题 -->
+    <color name="theme_white_title_bg">#af292e</color>
+    <color name="theme_white_stock_name">#ff222222</color>
+    <color name="theme_white_stock_code">#ff9aa4ad</color>
+    <color name="theme_white_market_list_divider">#ededed</color>
+    <color name="theme_white_market_gridview_select_bg">#ffd3def3</color>
+    <color name="theme_white_market_list_head_divider">#ededed</color>
+    <color name="theme_white_market_list_item_stock_name">#111111</color>
+    <color name="theme_white_market_list_item_stock_zx">#333333</color>
+    <color name="theme_white_market_bg">#ffffffff</color>
+    <color name="theme_white_self_stock_bg">#ffffffff</color>
+    <color name="theme_white_selfstock_zhang">#ffc03611</color>
+    <color name="theme_white_selfstock_die">#ff388f3c</color>
+    <color name="theme_white_selfstock_zero">#ff9aa4ad</color>
+    <color name="theme_white_self_stock_press">#f5f5f5</color>
+    <color name="theme_white_self_stock_line">#ff3e6ac5</color>
+    <color name="theme_white_self_stock_label_name">#ff3e6ac5</color>
+    <color name="chart_border_line_white">#dcdcdc</color>
+    <color name="theme_white_market_list_label_divider">#ededed</color>
+    <color name="theme_white_minute_bg_line_color">#d6d6d6</color>
+    <color name="theme_white_stock_bottom_bg">#fff7f7fc</color>
+    <color name="theme_white_stock_bottom_divide_line1">#ffcccccc</color>
+    <color name="theme_white_stock_bottom_divide_line2">#ffdcdcdc</color>
+    <color name="theme_white_stock_bottom_divide_line3">#ffffffff</color>
+    <color name="theme_white_stock_bottom_text">#ff333333</color>
+    <color name="theme_white_stock_bottom_presses">#aaaaaa</color>
+    <color name="theme_white_stock_bottom_divide_line4">#aaaaaa</color>
+    <color name="theme_white_market_list_label_name">#333333</color>
+    <color name="theme_white_market_list_label_bg">#f5f5f5</color>
+    <color name="theme_white_market_list_head_bg">#f5f5f5</color>
+    <color name="theme_white_market_list_bg">#ffffffff</color>
+    <color name="theme_white_market_plate_list_bg">#ffffffff</color>
+    <color name="theme_white_main_screen_tab_text">#666666</color>
+    <color name="theme_white_head_bg_color">#ff294683</color>
+    <color name="theme_white_main_screen_tab_text_old">#d6e0ed</color>
+    <color name="theme_white_main_screen_tab_bg_grey">#e9e9e9</color>
+    <color name="theme_white_main_screen_tab_bg_white">#ffffffff</color>
+    <color name="theme_white_main_market_footer_bg">#d9ecfb</color>
+    <color name="theme_white_main_market_footer_text">#111111</color>
+    <color name="theme_white_market_pop_header_bg">#ffffff</color>
+
+    <!-- 公众号分享 -->
+    <color name="share_window_bg">#efefef</color>
+    <color name="public_share_text">#666666</color>
 </resources>

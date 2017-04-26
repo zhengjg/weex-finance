@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<siteConfig>
+    <host field="http">
+        <site>
+            <type>fat</type>
+            <name>rest</name>
+            <value></value>
+        </site>
+        <site>
+            <type>fat</type>
+            <name>rest</name>
+            <value></value>
+        </site>
+        <site>
+            <type>uat</type>
+            <name>rest</name>
+            <value></value>
+        </site>
+        <site>
+            <type>beta</type>
+            <name>rest</name>
+            <value></value>
+        </site>
+        <site>
+            <type>pro</type>
+            <name>rest</name>
+            <value></value>
+        </site>
+
+        <site>
+            <type>fat</type>
+            <name>html</name>
+            <value></value>
+        </site>
+        <site>
+            <type>fat</type>
+            <name>html</name>
+            <value></value>
+        </site>
+        <site>
+            <type>uat</type>
+            <name>html</name>
+            <value></value>
+        </site>
+        <site>
+            <type>beta</type>
+            <name>html</name>
+            <value></value>
+        </site>
+        <site>
+            <type>pro</type>
+            <name>html</name>
+            <value></value>
+        </site>
+
+        <site>
+            <type>fat</type>
+            <name>licai</name>
+            <value></value>
+        </site>
+        <site>
+            <type>uat</type>
+            <name>licai</name>
+            <value></value>
+        </site>
+        <site>
+            <type>beta</type>
+            <name>licai</name>
+            <value></value>
+        </site>
+        <site>
+            <type>pro</type>
+            <name>licai</name>
+            <value></value>
+        </site>
+    </host>
+</siteConfig>
