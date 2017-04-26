@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">WeexFinance</string>
+    <string name="app_name">大象金融</string>
+    <string name="thread_test">线程测试</string>
+    <string name="self_stock">自选股</string>
+    <string name="information">资讯</string>
+    <string name="exchange">交易</string>
+    <string name="quotes">行情</string>
 </resources>
