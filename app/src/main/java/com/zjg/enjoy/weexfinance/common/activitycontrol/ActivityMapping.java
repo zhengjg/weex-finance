@@ -2,6 +2,9 @@ package com.zjg.enjoy.weexfinance.common.activitycontrol;
 
 import android.app.Activity;
 
+import com.zjg.enjoy.weexfinance.ui.activity.LocalActivity;
+import com.zjg.enjoy.weexfinance.ui.activity.TestActivity;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -30,7 +33,9 @@ public class ActivityMapping {
     }
 
     private void init() {
-        //activityMap.put(ActivityId.MAINACTIVITY, new ActivityStruct(ActivityId.MAINACTIVITY, "首页", MainActivity.class));
+        activityMap.put(ActivityId.WEEX_LOCAL, new ActivityStruct(ActivityId.WEEX_LOCAL, "weex", LocalActivity.class));
+        activityMap.put(ActivityId.TEST_ACTIVITY, new ActivityStruct(ActivityId.TEST_ACTIVITY, "测试", TestActivity.class));
+
     }
 
     public ActivityStruct getActivityStruct(String activityId) {

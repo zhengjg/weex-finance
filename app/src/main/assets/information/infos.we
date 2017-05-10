@@ -1,0 +1,50 @@
+<template>
+<div>
+<text>
+测试代码
+</text>
+</div>
+</template>
+
+<script>
+module.exports={
+		data:{
+			confirmData:"click",
+			ajaxResponse:"before get json"
+		},
+		methods:{
+			toast:function(){
+				modal.toast({'message': 'I am toast!', 'duration': 3});
+			},
+			comfirmClick:function(){
+				var content="this is content";
+				var okTilte="OK";
+				var cencle="CENCLE";
+				var self=this;
+				modal.confirm({
+					message:content,
+					okTitle:okTilte,
+					cancleTitle:cencle
+				},function(result){
+					self.confirmData=JSON.stringify(result);
+				});
+			},
+			getJsonData:function(){
+				var url="http://1.nativeapp.sinaapp.com/jsons/slideImage.json";
+				var self=this;
+				stream.fetch({
+					method:"GET",
+					url:url,
+					type:"json"
+				},function(data){
+					self.ajaxResponse=JSON.stringify(data);
+
+				});
+
+			}
+		}
+	}
+</script>
+
+<style>
+</style>

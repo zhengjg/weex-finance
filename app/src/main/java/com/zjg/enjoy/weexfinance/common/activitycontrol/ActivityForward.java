@@ -3,6 +3,7 @@ package com.zjg.enjoy.weexfinance.common.activitycontrol;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
 
 import com.zjg.enjoy.weexfinance.application.EleAppliction;
 import com.zjg.enjoy.weexfinance.common.consts.IntentKeys;
@@ -36,6 +37,8 @@ public class ActivityForward {
             context.startActivity(intent);
         }
     }
+
+
 
     public static void forward(Activity fromActivity, String activityId, Intent intent, int requestCode) {
         if (fromActivity == null) {

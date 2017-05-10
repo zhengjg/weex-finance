@@ -11,4 +11,6 @@ public interface ActivityId {
     String MAINWEBVIEW = "0-2";
     String PAPPYWEBVIEW = "1-1";
     String WEB_PAGE = "1-2";
+    String TEST_ACTIVITY="1-0";
+    String WEEX_LOCAL="1-1-0";
 }
